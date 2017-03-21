@@ -1,0 +1,166 @@
+html{
+    margin: 0;
+    padding: 0;
+    text-rendering: optimizeLegibility;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+    font-size: 100%;
+    background-color: #eef6ff;
+    width: 100%;
+    text-align: center;
+}
+
+h1{
+    display: block;
+}
+
+/*Sabit ust kisim*/
+.ust{
+    border-radius : 0px 0px 22px 22px ;
+    background-color: #f1fff8;
+
+    position:fixed;
+    box-sizing: inherit;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #ffffff;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    width: 1000px;
+    border-bottom: 4px solid #BFFFF3;
+    min-height: 3.5rem;
+    z-index: 2;
+    margin: 3%;
+    margin-top: auto;
+
+
+    -webkit-box-shadow : 0px 10px 6px -6px rgba(119,119,119,1) ;
+    -moz-box-shadow : 0px 10px 6px -6px rgba(119,119,119,1) ;
+    -ms-box-shadow : 0px 10px 6px -6px rgba(119,119,119,1) ;
+    -o-box-shadow : 0px 10px 6px -6px rgba(119,119,119,1) ;
+    box-shadow : 0px 10px 6px -6px rgba(119,119,119,1) ;
+}
+
+/*uzun olan sayifa*/
+.icerikSayifasi{
+    position: absolute;
+    background-color: #eef6ff;
+    margin-top: 3.5rem;
+    width: 100%;
+    height: 2000px;
+    z-index: 1;
+    flex-grow:1;
+    flex-shrink:0;
+    padding:3rem 0rem
+}
+
+/*resim ve ozet icin bir kutu*/
+.kutu{
+    height: 400px;
+    width: 600px;
+    background-color: #eef6ff;
+    box-shadow: inset 0 -1px 0 0 rgba(255, 255, 255, 0.5);
+    margin: auto;
+    top:75px;
+    right: auto;
+    position: relative;
+    padding: 10px;
+}
+
+/*resmim*/
+.profile-pic {
+    border-radius: 140px;
+    position: absolute;
+    margin-left: -70px;
+    bottom:350px;
+    -webkit-box-shadow : 0px 10px 6px -6px rgba(119,119,119,1) ;
+    -moz-box-shadow : 0px 10px 6px -6px rgba(119,119,119,1) ;
+    -ms-box-shadow : 0px 10px 6px -6px rgba(119,119,119,1) ;
+    -o-box-shadow : 0px 10px 6px -6px rgba(119,119,119,1) ;
+    box-shadow : 0px 10px 6px -6px rgba(119,119,119,1) ;
+
+}
+
+.yazi{
+    margin-top: 80px;
+    font-size: 2.75rem;
+    color: #363636;
+    font-weight: 300;
+    line-height: 1.125;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+.mugla{
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin-top: -1.25rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.25;
+    box-sizing: inherit;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+    color:#4a4a4a;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+.button{
+    float: right;
+    border-radius: 4px;
+   /* background-color: #f4511e;*/
+    background-color: #f1fff8;
+    border: none;
+    color: #0a212b;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    width: 110px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.buttonlarinDivi{
+
+    left:500px;
+
+
+    width: 500px;
+
+    height: 100%;
+    margin: auto;
+    position: absolute;
+}
