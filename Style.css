@@ -11,14 +11,12 @@ body{
     font-size: 100%;
     background-color: #eef6ff;
     width: 100%;
-    text-align: center;
+    text-align: center
 }
 
-h1{
-    display: block;
-}
+h1{display: block}
 
-/*Sabit ust kisim*/
+/*Start Sabit ust kisim*/
 .ust{
     border-radius : 0px 0px 22px 22px ;
     background-color: #fff;
@@ -39,15 +37,15 @@ h1{
     margin: 3%;
     margin-top: auto;
     margin: auto;
-
     -webkit-box-shadow : 0px 10px 6px -6px rgba(119,119,119,1) ;
     -moz-box-shadow : 0px 10px 6px -6px rgba(119,119,119,1) ;
     -ms-box-shadow : 0px 10px 6px -6px rgba(119,119,119,1) ;
     -o-box-shadow : 0px 10px 6px -6px rgba(119,119,119,1) ;
-    box-shadow : 0px 10px 6px -6px rgba(119,119,119,1) ;
+    box-shadow : 0px 10px 6px -6px rgba(119,119,119,1)
 }
+/*End Sabit ust kisim*/
 
-/*uzun olan sayifa*/
+/*Start uzun olan sayifa*/
 .icerikSayifasi{
     position: relative;
     background-color: #eef6ff;
@@ -59,6 +57,7 @@ h1{
     flex-shrink:0;
     padding:3rem 0
 }
+/*Start uzun olan sayifa*/
 
 .ikinciIcerik {
     position: absolute;
@@ -69,7 +68,7 @@ h1{
     padding:3rem 0;
 }
 
-/*resim ve ozet icin genel bir kutu*/
+/*Start resim ve ozet icin genel bir kutu*/
 .kutu{
     height: 400px;
     width: 600px;
@@ -81,8 +80,9 @@ h1{
     position: relative;
     padding: 15px;
 }
+/*Start resim ve ozet icin genel bir kutu*/
 
-/*resmim*/
+/*Start resmim*/
 .profile-pic {
     border-radius: 140px;
     position: absolute;
@@ -94,13 +94,14 @@ h1{
     -o-box-shadow : 0px 10px 6px -6px rgba(119,119,119,1) ;
     box-shadow : 0px 10px 6px -6px rgba(119,119,119,1) ;
 }
+/*Start resmim*/
 
 .profile-pic:hover{
 
 
 }
 
-/*Ammar a ajah yazisi*/
+/*Start Ammar a ajah yazisi*/
 .yazi{
     margin-top: 80px;
     font-size: 2.75rem;
@@ -112,8 +113,9 @@ h1{
     text-align: center;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 }
+/*End Ammar a ajah yazisi*/
 
-/*mugla sitki kocman uuu yazisi*/
+/*Start mugla sitki kocman uuu yazisi*/
 .mugla{
     font-weight: 300;
     font-size: 1.5rem;
@@ -126,6 +128,7 @@ h1{
     color:#1d2129;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 }
+/*End mugla sitki kocman uuu yazisi*/
 
 .button, .normalMi{
     float: right;
@@ -140,22 +143,19 @@ h1{
     width: 90px;
     transition: all 0.5s;
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 20px
 }
 
-.normalMi[about="hello"]{
-    width: 120px;
-}
+.normalMi[about="hello"]{ width: 120px}
 
 .normalMi:hover{
     border-bottom: 8px solid #9bffe2;
-
     border-radius : 5px 5px 5px 5px ;
     -webkit-box-shadow : 0px 15px 6px -6px rgba(119,119,119,1) ;
     -moz-box-shadow : 0px 15px 6px -6px rgba(119,119,119,1) ;
     -ms-box-shadow : 0px 15px 6px -6px rgba(119,119,119,1) ;
     -o-box-shadow : 0px 15px 6px -6px rgba(119,119,119,1) ;
-    box-shadow : 0px 15px 6px -6px rgba(119,119,119,1) ;
+    box-shadow : 0px 15px 6px -6px rgba(119,119,119,1)
 }
 
 .button span , .normalMi span {
@@ -163,11 +163,9 @@ h1{
     display: inline-block;
     position: relative;
     transition: 0.5s;
-
     font-weight: 300;
     line-height: 1.25;
     box-sizing: inherit;
-
     color:#4a4a4a;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 }
@@ -178,66 +176,51 @@ h1{
     opacity: 0;
     top: 0;
     right: -20px;
-    transition: 0.5s;
+    transition: 0.5s
 }
 
-.button:hover span {
-    padding-right: 25px;
-}
+.button:hover span { padding-right: 25px  }
 
-.normalMi:hover span {
-    padding-top: 10px;
-}
+.normalMi:hover span {  padding-top: 10px}
 
 .button:hover span:after , .normalMi:hover span:after {
     opacity: 1;
-    right: 0;
+    right: 0
 }
 
-/*Buttonlari bu divin icine koydunm*/
+/*Start Buttonlari bu divin icine koydunm*/
 .buttonlarinDivi{
-
     left:500px;
     width: 500px;
     height: 100%;
     margin: auto;
     position: absolute;
 }
+/*End Buttonlari bu divin icine koydunm*/
 
-/*Iki tane tur button var, bu ikincisi*/
+/*Start Iki tane tur button var, bu ikincisi*/
 .button{
-   /* border: 0.01em inset #6b6f6d;
-*/
     margin-right: 20px;
     margin-left: 10px;
-    /*border-radius : 5px 5px 5px 5px ;*/
     box-shadow: none;
     border-radius: 3px;
-
     justify-content: center;
     padding-left: .75em;
     padding-right: .75em;
     text-align: center;
-
     border: 1px solid #dbdbdb;
     border-top-color: rgb(219, 219, 219);
-
     border-right-color: rgb(219, 219, 219);
     border-bottom-color: rgb(219, 219, 219);
-
     border-left-color: rgb(219, 219, 219);
-
     border-image-source: initial;
     border-image-slice: initial;
-
     border-image-repeat: initial;
-
     display: inline-flex;
-
     white-space: nowrap;
-
     line-height: 1.5;
 }
+/*End Iki tane tur button var, bu ikincisi*/
 
 p{
     padding:-20px;
@@ -253,37 +236,30 @@ p{
     font-weight: 400;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
-
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 }
 
 a{
     padding: 10px;
     margin-bottom: 20px;
-    color:skyblue;
+    color:skyblue
 }
 
-a [class="fa fa-facebook-square fa-4x"]{
-    color: blue;
-}
+a [class="fa fa-facebook-square fa-4x"]{color: blue}
 
-a:hover{
-    color: #000;
-}
+a:hover{color: #000}
 
-.skills{
+/*Beginner - Inter - Ad - Exp*/
+.kisimler{
     width: 930px;
     height: 190px;
     margin: 100px 50px;
     position: relative;
-    padding:10px;
-
-    top:100px;
-
-    background-color: red;
+    padding: 10px;
+    top: 100px;
+    background-color: white;
 }
-
-.skills ul{
+.kisimler ul{
     display: block;
     list-style-type: disc;
     -webkit-margin-before: 1em;
@@ -297,8 +273,7 @@ a:hover{
     padding: 0px;
     margin: 20px 0 0 0;
 }
-
-.skills ul li{
+.kisimler ul li{
     list-style-type: none;
     text-align: left;
     height: 17px;
@@ -308,48 +283,146 @@ a:hover{
     font-family: Georgia;
     font-weight: bold;
     font-size: 11px;
-
-
     display: list-item;
     line-height: 1.5em;
 }
-
-skills ul li:after{
+.kisimler ul li:after{
     background: url(/dash.jpg) no-repeat 100% 50%;
     width: 6px;
     height:10px;
-
     margin: auto;
 }
+/*End Beginner - Inter - Ad - Exp*/
 
+/*Start web Dev.. */
+.data .js .html .asp. .masp .sass{
+    float: left;
+    width: 20px;
+    display: table-cell;
+    vertical-align: bottom;
+    font-style: italic;
+    font-size: 11px;
+    line-height: 1.5em;
+    height: 70px;
+    margin: -70px 10px 100px 120px;
+    padding: 0px;
+    background-color: #ea2d83;
+}
+.data label ,.js label,.html label,.asp label,.masp label,.sass label{
+    float: none;
+    display: inline-block;
+    cursor: pointer;
+    font-style: italic;
+    text-align: center;
+    line-height: 1.5em;
+    margin: 0 -10px;
+    padding: 90px 5px 5px 2px;
+    font-size: 0.8rem;
+    color: #3f3f3f;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+/*End web Dev.. */
+
+/*Start seviye belirleyici cizgi*/
 .cizgi{
     height: 98px;
     width: 8px;
-    left:140px;
+    left: 140px;
     cursor: pointer;
     border: 0;
     text-align: center;
     position: absolute;
     box-sizing: border-box;
     display: block;
-    top:40px;
+    top: 40px;
     font-style: italic;
     font-size: 11px;
+    background: url(graph_sprite.png) -25px 0px no-repeat;
+}
+/*End seviye belirleyici cizgi*/
 
+/*Start Javascript info.*/
+.js label{
+    margin: 19px -10px;
+}
+.js .cizgi{
+    left: 178px;
     background: url(graph_sprite.png) -75px 0px no-repeat;
 }
+/*End Javascript info.*/
 
-.programming{
-    width: 150px;
+/*Start HTML info.*/
+.html label{
+    margin: 0px -10px;
+
+}
+.html .cizgi{
+    left: 218px;
+    background: url(graph_sprite.png) 0px 0px no-repeat;
+}
+/*End HTML info.*/
+
+/*Start ASP.NET info.*/
+.asp label{
+    margin: 19px -20px;
+}
+.asp .cizgi{
+    left: 258px;
+    background: url(graph_sprite.png) -25px 0px no-repeat;
+}
+.asp .noktalar{
+    position: absolute;
+    left: 260px;
+    bottom:65px;
+    top: 130px;
+}
+/*End ASP.NET info.*/
+
+/*Start sass info.*/
+.sass .cizgi{
+    left: 298px;
+    background: url(graph_sprite.png) -75px 0px no-repeat;
+}
+/*End sass info.*/
+
+.noktalar{
+    position: absolute;
+    left: 180px;
+    bottom:65px;
+    top: 130px;
+}
+
+/*Start Web Cizgisi*/
+.webKismi{
+    width: 200px;
     height: 18px;
-
+    position: absolute;
+    display: block;
     margin-top: 100px;
-    margin-left:120px;
-    background: white;
-
-
+    margin-left: 120px;
+    background: #ffd1f9;
 }
-
-::selection{
-    background: #ffff00;
+.webKismi span{
+    display: block;
+    position: relative;
+    font-size: smaller;
+    font-weight: 100;
+    box-sizing: inherit;
+    color:#4a4a4a;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 }
+/*End Web Cizgisi*/
+
+.programmingkismi{
+    width: 200px;
+    height: 18px;
+    position: absolute;
+    display: block;
+    margin-top: 100px;
+    margin-left: 330px;
+    background: #82fffc;
+}
+::selection{ background: #ffff00}
