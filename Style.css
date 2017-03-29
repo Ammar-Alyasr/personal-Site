@@ -14,6 +14,19 @@ body{
     text-align: center
 }
 
+body::-webkit-scrollbar {
+    width: 0.4em;
+}
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 1px rgba(77, 222, 208, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #939d9d;
+    outline: 1px solid #2b79c7;
+}
+
 h1{display: block}
 
 /*Start Sabit ust kisim*/
@@ -295,7 +308,7 @@ a:hover{color: #000}
 /*End Beginner - Inter - Ad - Exp*/
 
 /*Start web Dev.. */
-.data .js .html .asp. .sass .dilc .sharp .java .python{
+.data .js .html .asp. .sass .dilc .sharp .java .python .prject .human{
     float: left;
     width: 20px;
     display: table-cell;
@@ -308,7 +321,7 @@ a:hover{color: #000}
     padding: 0px;
     background-color: #ea2d83;
 }
-.data label ,.js label,.html label,.asp label,.sass label, .dilc label, .sharp label, .python label, .java label{
+.data label ,.js label,.html label,.asp label,.sass label, .dilc label, .sharp label, .python label, .java label, .prject label, .human label{
     float: none;
     display: inline-block;
     cursor: pointer;
@@ -435,19 +448,19 @@ a:hover{color: #000}
 
 /*Start C dili Cizgisi*/
 .dilc .cizgi{
-    left: 350px;
+    left: 375px;
     background: url(graph_sprite.png) -75px 0px no-repeat;
 }
 /*End C dili Cizgisi*/
 
 /*Start C# dili Cizgisi*/
 .sharp .cizgi{
-    left: 390px;
+    left: 415px;
     background: url(graph_sprite.png) -50px 0px no-repeat
 }
 .sharp .noktalar{
     position: absolute;
-    left: 390px;
+    left: 417px;
     bottom:65px;
     top: 130px
 }
@@ -456,7 +469,7 @@ a:hover{color: #000}
 
 /*Start python dili Cizgisi*/
 .python .cizgi{
-    left: 430px;
+    left: 455px;
     background: url(graph_sprite.png) -50px 0px no-repeat;
 }
 .python label{margin: 0px -25px 19px}
@@ -464,15 +477,55 @@ a:hover{color: #000}
 
 /*Start Java dili Cizgisi*/
 .java .cizgi{
-    left: 470px;
+    left: 497px;
     background: url(graph_sprite.png) -75px 0px no-repeat
 }
 .java .noktalar{
     position: absolute;
-    left: 390px;
+    left: 497px;
     bottom:65px;
     top: 130px
 }
 .java label{margin: 19px -20px}
 /*End Java Cizgisi*/
+
+/*Start Management Cizgisi*/
+.Managementkismi{
+    width: 200px;
+    height: 18px;
+    position: absolute;
+    display: block;
+    margin-top: 100px;
+    margin-left: 540px;
+    background: rgba(192, 255, 217, 0.82);
+}
+.Managementkismi span{
+    display: block;
+    position: relative;
+    font-size: smaller;
+    font-weight: 100;
+    box-sizing: inherit;
+    color:#4a4a4a;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+/*End Management Cizgisi*/
+
+/*Start project Cizgisi*/
+.prject .cizgi{
+    left: 583px;
+    background: url(graph_sprite.png) -50px 0px no-repeat;
+}
+.prject label{margin: 0px -32px 19px}
+/*End project  Cizgisi*/
+
+/*Start Peopel Cizgisi*/
+.human .cizgi{
+    left: 705px;
+    background: url(graph_sprite.png) -25px 0px no-repeat
+}
+.human label{margin: 0px -32px}
+/*End Peopel  Cizgisi*/
+
+
 ::selection{ background: #ffff00}
+
