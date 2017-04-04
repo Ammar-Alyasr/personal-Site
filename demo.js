@@ -1,28 +1,16 @@
-/**
- * smoothScroll
- * Created by yapı123 on 17.03.2017.
- */
-
-
-$(function () {
-
-    smoothScroll.init({
-        speed : 2000
-    });
-
-
-})
 
 /*
-mapps
+ mapps
  */
 
 /**
  * SVG path for target icon
  */
 
-
-
+src = "https://www.amcharts.com/lib/3/themes/light.js";
+src = "https://www.amcharts.com/lib/3/plugins/export/export.min.js";
+src = "https://www.amcharts.com/lib/3/themes/light.js";
+src = "https://www.amcharts.com/lib/3/ammap.js";
 var targetSVG = "M9,0C4.029,0,0,4.029,0,9s4.029,9,9,9s9-4.029,9-9S13.971,0,9,0z M9,15.93 c-3.83,0-6.93-3.1-6.93-6.93S5.17,2.07,9,2.07s6.93,3.1,6.93,6.93S12.83,15.93,9,15.93 M12.5,9c0,1.933-1.567,3.5-3.5,3.5S5.5,10.933,5.5,9S7.067,5.5,9,5.5 S12.5,7.067,12.5,9z";
 
 /**
@@ -33,7 +21,7 @@ var planeSVG = "m2,106h28l24,30h72l-44,-133h35l80,132h98c21,0 21,34 0,34l-98,0 -
 /**
  * Create the map
  */
-var map = AmCharts.makeChart( "chartdiv", {
+var map = AmCharts.makeChart("chartdiv", {
     "type": "map",
     "theme": "light",
 
@@ -44,20 +32,20 @@ var map = AmCharts.makeChart( "chartdiv", {
         "zoomLongitude": 50,
         "zoomLatitude": 30,
 
-        "lines": [ {
+        "lines": [{
             "id": "line1",
             "arc": -0.85,
             "alpha": 2,
-            "latitudes": [ 13.577589, 21.389082, 41.621346, 37.183582 ],
-            "longitudes": [44.017799, 39.857912, 26.625366, 28.486396 ]
+            "latitudes": [13.577589, 21.389082, 41.621346, 37.183582],
+            "longitudes": [44.017799, 39.857912, 26.625366, 28.486396]
         }, {
             "id": "line2",
             "alpha": 0,
             "color": "#000000",
-            "latitudes": [ 13.577589, 21.389082, 41.621346, 37.183582],
-            "longitudes": [ 44.017799, 39.857912, 26.625366, 28.486396 ]
-        } ],
-        "images": [ {
+            "latitudes": [13.577589, 21.389082, 41.621346, 37.183582],
+            "longitudes": [44.017799, 39.857912, 26.625366, 28.486396]
+        }],
+        "images": [{
             "svgPath": targetSVG,
             "title": "Taiz",
             "latitude": 13.577589,
@@ -98,7 +86,7 @@ var map = AmCharts.makeChart( "chartdiv", {
             "loop": true,
             "scale": 0.03,
             "positionScale": 1.8
-        } ]
+        }]
     },
 
     "areasSettings": {
@@ -123,4 +111,4 @@ var map = AmCharts.makeChart( "chartdiv", {
         "enabled": true
     }
 
-} );
+});

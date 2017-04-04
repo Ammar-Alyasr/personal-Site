@@ -64,3 +64,14 @@ http://codepen.io/thapliyalshivam/pen/dvgXVO
     100%{filter:hue-rotate(360deg);}
 
 }
+
+
+/*
+map
+ */
+
+#chartdiv {
+    width: 100%;
+    height: 500px;
+    position: static;
+}
