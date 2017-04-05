@@ -5,12 +5,11 @@ html{
 }
 
 body{
-    margin: 0;
-    padding: 0;
+
+    background-color: #eef6ff;
     font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
     font-size: 100%;
-    background-color: #eef6ff;
-    width: 100%;
+
     text-align: center
 }
 
@@ -94,6 +93,7 @@ h1{display: block}
     padding: 15px;
 }
 /*Start resim ve ozet icin genel bir kutu*/
+
 
 /*Start resmim*/
 .profile-pic {
@@ -269,11 +269,15 @@ a:hover{color: #000}
 
 /*Beginner - Inter - Ad - Exp*/
 .kisimler{
-    width: 930px;
+    width: 700px;
     height: 190px;
 
-    margin: auto;
-    position: relative;
+    margin-left: 140px;
+    margin-right: 20px;
+    right: 140px;
+    left: 50px;
+    
+    position: absolute;
     padding: 10px;
     top: 100px;
     background-color: white;
@@ -313,6 +317,8 @@ a:hover{color: #000}
 }
 /*End Beginner - Inter - Ad - Exp*/
 
+
+
 /*Start web Dev.. */
 .data .js .html .asp. .sass .dilc .sharp .java .python .prject .human{
     float: left;
@@ -327,7 +333,9 @@ a:hover{color: #000}
     padding: 0px;
     background-color: #ea2d83;
 }
-.data label ,.js label,.html label,.asp label,.sass label, .dilc label, .sharp label, .python label, .java label, .prject label, .human label{
+
+.data label ,.js label,.html label,.asp label,.sass label, .dilc label,
+.sharp label, .python label, .java label, .prject label, .human label{
     float: none;
     display: inline-block;
     cursor: pointer;
@@ -497,7 +505,7 @@ a:hover{color: #000}
 
 /*Start Management Cizgisi*/
 .Managementkismi{
-    width: 200px;
+    width: 160px;
     height: 18px;
     position: absolute;
     display: block;
@@ -526,7 +534,7 @@ a:hover{color: #000}
 
 /*Start Peopel Cizgisi*/
 .human .cizgi{
-    left: 705px;
+    left: 665px;
     background: url(graph_sprite.png) -25px 0px no-repeat
 }
 .human label{margin: 0px -32px}
