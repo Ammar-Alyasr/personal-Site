@@ -256,6 +256,7 @@ p{
 }
 
 a{
+
     padding: 10px;
     margin-bottom: 20px;
     color:skyblue
@@ -267,20 +268,41 @@ a [class="fa fa-facebook-square fa-4x"]{color: blue}
 
 a:hover{color: #000}
 
+.bolumlerWeb {
+    width: 210px;
+    height: 133px;
+    background-color: #00ff88;
+
+
+    top:25px;
+    position: absolute;
+    left: 100px;
+}
+
+.bolumlerPro {
+    width: 210px;
+    height: 133px;
+    background-color: #6382ff;
+
+
+    top:25px;
+    position: absolute;
+    left: 335px;
+}
+
+
 /*Beginner - Inter - Ad - Exp*/
 .kisimler{
     width: 700px;
     height: 190px;
-
-    margin-left: 140px;
-    margin-right: 20px;
-    right: 140px;
-    left: 50px;
-    
     position: absolute;
     padding: 10px;
-    top: 100px;
+    top: 210px;
+
+    display: table;
+    right: 149px;
     background-color: white;
+
 }
 .kisimler ul{
     display: block;
@@ -330,8 +352,10 @@ a:hover{color: #000}
     line-height: 1.5em;
     height: 70px;
     margin: -70px 10px 100px 120px;
-    padding: 0px;
+    padding: 0;
+    position: absolute;
     background-color: #ea2d83;
+
 }
 
 .data label ,.js label,.html label,.asp label,.sass label, .dilc label,
@@ -344,6 +368,7 @@ a:hover{color: #000}
     line-height: 1.5em;
     margin: 0 -10px;
     padding: 90px 5px 5px 2px;
+
     font-size: 0.8rem;
     color: #3f3f3f;
     font-weight: 400;
@@ -364,26 +389,30 @@ a:hover{color: #000}
     position: absolute;
     box-sizing: border-box;
     display: block;
-    top: 40px;
+    top: 10px;
     font-style: italic;
     font-size: 11px;
     background: url(graph_sprite.png) -25px 0px no-repeat;
 }
 /*End seviye belirleyici cizgi*/
 
+.data .cizgi{
+    left: 17px;
+}
+
 /*Start Javascript info.*/
 .js label{
     margin: 19px -10px;
 }
 .js .cizgi{
-    left: 178px;
+    left: 57px;
     background: url(graph_sprite.png) -75px 0px no-repeat;
 }
 /*End Javascript info.*/
 
 /*Start HTML info.*/
 .html .cizgi{
-    left: 218px;
+    left: 97px;
     background: url(graph_sprite.png) 0px 0px no-repeat;
 }
 /*End HTML info.*/
@@ -393,29 +422,29 @@ a:hover{color: #000}
     margin: 19px -20px;
 }
 .asp .cizgi{
-    left: 258px;
+    left: 137px;
     background: url(graph_sprite.png) -25px 0px no-repeat;
 }
 .asp .noktalar{
     position: absolute;
-    left: 260px;
+    left: 140px;
     bottom:65px;
-    top: 130px;
+
 }
 /*End ASP.NET info.*/
 
 /*Start sass info.*/
 .sass .cizgi{
-    left: 298px;
+    left: 177px;
     background: url(graph_sprite.png) -75px 0px no-repeat;
 }
 /*End sass info.*/
 
 .noktalar{
     position: absolute;
-    left: 180px;
+    left: 60px;
     bottom:65px;
-    top: 130px;
+    top: 102px;
 }
 
 /*Start Web Cizgisi*/
@@ -424,8 +453,9 @@ a:hover{color: #000}
     height: 18px;
     position: absolute;
     display: block;
+    top:-20px;
     margin-top: 100px;
-    margin-left: 120px;
+    margin-left: 5px;
     background: #ffd1f9;
 }
 .webKismi span{
@@ -539,6 +569,8 @@ a:hover{color: #000}
 }
 .human label{margin: 0px -32px}
 /*End Peopel  Cizgisi*/
+
+
 
 
 ::selection{ background: #ffff00}
