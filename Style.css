@@ -83,7 +83,7 @@ h1{display: block}
 /*Start resim ve ozet icin genel bir kutu*/
 .kutu{
     height: 400px;
-    width: 600px;
+    width: 55%;
     background-color: #eef6ff;
     box-shadow: inset 0 -1px 0 0 rgba(255, 255, 255, 0.5);
     margin: auto;
@@ -262,49 +262,25 @@ a{
     color:skyblue
 }
 
-
-
-a [class="fa fa-facebook-square fa-4x"]{color: blue}
-
 a:hover{color: #000}
-
-.bolumlerWeb {
-    width: 210px;
-    height: 133px;
-    background-color: #00ff88;
-
-
-    top:25px;
-    position: absolute;
-    left: 100px;
-}
-
-.bolumlerPro {
-    width: 210px;
-    height: 133px;
-    background-color: #6382ff;
-
-
-    top:25px;
-    position: absolute;
-    left: 335px;
-}
 
 
 /*Beginner - Inter - Ad - Exp*/
-.kisimler{
-    width: 700px;
-    height: 190px;
+.flex-container{
+    width: 63%;
+    height: 350px;
     position: absolute;
     padding: 10px;
     top: 210px;
+    margin-left: 13%;
+    display: flex;
 
-    display: table;
-    right: 149px;
-    background-color: white;
+    background-color: #87fdff;
+    flex-wrap: wrap;
+    flex-direction: row;
 
 }
-.kisimler ul{
+.flex-container ul{
     display: block;
     list-style-type: disc;
     -webkit-margin-before: 1em;
@@ -318,7 +294,7 @@ a:hover{color: #000}
     padding: 0px;
     margin: 20px 0 0 0;
 }
-.kisimler ul li{
+.flex-container ul li{
     list-style-type: none;
     text-align: left;
     height: 17px;
@@ -331,7 +307,7 @@ a:hover{color: #000}
     display: list-item;
     line-height: 1.5em;
 }
-.kisimler ul li:after{
+.flex-container ul li:after{
     background: url(/dash.jpg) no-repeat 100% 50%;
     width: 6px;
     height:10px;
@@ -378,6 +354,21 @@ a:hover{color: #000}
 }
 /*End web Dev.. */
 
+
+
+
+
+
+.flex-container .bolumlerWeb {
+    width: 210px;
+    height: 133px;
+    background-color: #00ff88;
+
+
+    top:25px;
+    position: absolute;
+    left: 100px;
+}
 /*Start seviye belirleyici cizgi*/
 .cizgi{
     height: 98px;
@@ -417,6 +408,29 @@ a:hover{color: #000}
 }
 /*End HTML info.*/
 
+/*Start sass info.*/
+.sass .cizgi{
+    left: 177px;
+    background: url(graph_sprite.png) -75px 0px no-repeat;
+}
+/*End sass info.*/
+
+
+
+
+
+
+
+.flex-container .bolumlerPro {
+    width: 167px;
+    height: 133px;
+    background-color: #6382ff;
+
+    top:25px;
+    position: inherit;
+    left: 312px;
+}
+
 /*Start ASP.NET info.*/
 .asp label{
     margin: 19px -20px;
@@ -433,12 +447,6 @@ a:hover{color: #000}
 }
 /*End ASP.NET info.*/
 
-/*Start sass info.*/
-.sass .cizgi{
-    left: 177px;
-    background: url(graph_sprite.png) -75px 0px no-repeat;
-}
-/*End sass info.*/
 
 .noktalar{
     position: absolute;
@@ -471,12 +479,13 @@ a:hover{color: #000}
 
 /*Start Programming Cizgisi*/
 .programmingkismi{
-    width: 200px;
+    width: 155px;
     height: 18px;
     position: absolute;
     display: block;
+    top:-20px;
     margin-top: 100px;
-    margin-left: 330px;
+    margin-left: 5px;
     background: #82fffc;
 }
 .programmingkismi span{
@@ -492,28 +501,29 @@ a:hover{color: #000}
 
 /*Start C dili Cizgisi*/
 .dilc .cizgi{
-    left: 375px;
+    left: 17px;
     background: url(graph_sprite.png) -75px 0px no-repeat;
 }
 /*End C dili Cizgisi*/
 
 /*Start C# dili Cizgisi*/
 .sharp .cizgi{
-    left: 415px;
+    left: 57px;
     background: url(graph_sprite.png) -50px 0px no-repeat
 }
 .sharp .noktalar{
     position: absolute;
-    left: 417px;
+
+    left: 60px;
     bottom:65px;
-    top: 130px
+    top: 102px;
 }
 .sharp label{margin: 19px -20px}
 /*End C# Cizgisi*/
 
 /*Start python dili Cizgisi*/
 .python .cizgi{
-    left: 455px;
+    left: 97px;
     background: url(graph_sprite.png) -50px 0px no-repeat;
 }
 .python label{margin: 0px -25px 19px}
@@ -521,27 +531,41 @@ a:hover{color: #000}
 
 /*Start Java dili Cizgisi*/
 .java .cizgi{
-    left: 497px;
+    left: 137px;
     background: url(graph_sprite.png) -75px 0px no-repeat
 }
 .java .noktalar{
     position: absolute;
-    left: 497px;
+    left: 140px;
     bottom:65px;
-    top: 130px
+    top: 102px;
 }
 .java label{margin: 19px -20px}
 /*End Java Cizgisi*/
 
+
+.flex-container .bolumManagement {
+    width: 167px;
+    height: 133px;
+    background-color: #ff9b39;
+
+
+    top:25px;
+    position: absolute;
+    left: 480px;
+}
+
+
 /*Start Management Cizgisi*/
 .Managementkismi{
-    width: 160px;
+    width: 155px;
     height: 18px;
     position: absolute;
     display: block;
+    top:-20px;
     margin-top: 100px;
-    margin-left: 540px;
-    background: rgba(192, 255, 217, 0.82);
+    margin-left: 5px;
+    background: #b3ff9e;
 }
 .Managementkismi span{
     display: block;
@@ -556,7 +580,7 @@ a:hover{color: #000}
 
 /*Start project Cizgisi*/
 .prject .cizgi{
-    left: 583px;
+    left: 116px;
     background: url(graph_sprite.png) -50px 0px no-repeat;
 }
 .prject label{margin: 0px -32px 19px}
@@ -564,7 +588,7 @@ a:hover{color: #000}
 
 /*Start Peopel Cizgisi*/
 .human .cizgi{
-    left: 665px;
+    left: 30px;
     background: url(graph_sprite.png) -25px 0px no-repeat
 }
 .human label{margin: 0px -32px}

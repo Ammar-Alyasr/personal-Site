@@ -1,15 +1,32 @@
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    .ust{
-        background-color: red;
-    }
+    .ust{width: 100% }
+    .ikinciIcerik{  width: 100%}
+    .icerikSayifasi{width: 100% }
+    .kutu{ width: 91%; top:5px}
+
+    .button {width: 70px; height: 30px; font-size: 12px}
+    .normalMi{width: 70px; height: 30px; font-size: 12px}
+    .normalMi[about="hello"]{ width: 100px; height: 30px; font-size: 12px}
 
     .kisimler{
         width: 380px;
         float: none ;
         height: 300px;
         left:0.1px;
+
         background-color: red;
     }
+    .fa-pinterest-square{display: none}
+    .fa-vk{ display: none}
+    .fa-youtube-square{display: none}.fa-soundcloud{display: none} .fa-tumblr-square{display: none}
+     .yazi{
+         font-size: 2rem;
+         line-height: 1;
+     }
+
+     .flex-container{
+         display: none;
+     }
 
 }
