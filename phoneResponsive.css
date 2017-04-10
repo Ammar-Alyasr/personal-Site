@@ -25,6 +25,11 @@
          line-height: 1;
      }
 
+     a{
+
+         font-size: 10px;
+     }
+
      .flex-container{
          display: none;
      }

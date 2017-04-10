@@ -268,14 +268,14 @@ a:hover{color: #000}
 /*Beginner - Inter - Ad - Exp*/
 .flex-container{
     width: 63%;
-    height: 350px;
+    height: 163px;
     position: absolute;
     padding: 10px;
     top: 210px;
     margin-left: 13%;
     display: flex;
 
-    background-color: #87fdff;
+    background-color: #eef6ff;
     flex-wrap: wrap;
     flex-direction: row;
 
@@ -362,8 +362,6 @@ a:hover{color: #000}
 .flex-container .bolumlerWeb {
     width: 210px;
     height: 133px;
-    background-color: #00ff88;
-
 
     top:25px;
     position: absolute;
@@ -424,7 +422,6 @@ a:hover{color: #000}
 .flex-container .bolumlerPro {
     width: 167px;
     height: 133px;
-    background-color: #6382ff;
 
     top:25px;
     position: inherit;
@@ -547,7 +544,6 @@ a:hover{color: #000}
 .flex-container .bolumManagement {
     width: 167px;
     height: 133px;
-    background-color: #ff9b39;
 
 
     top:25px;

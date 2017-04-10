@@ -97,8 +97,8 @@ var map = AmCharts.makeChart( "chartdiv", {
         "color": "#585869",
         "rollOverColor": "#585869",
         "selectedColor": "#585869",
-        "pauseDuration": 0.5,
-        "animationDuration": 7,
+        "pauseDuration": 1,
+        "animationDuration": 8.5,
         "adjustAnimationSpeed": true
     },
 
