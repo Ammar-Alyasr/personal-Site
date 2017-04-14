@@ -3,7 +3,12 @@
     .ust{width: 100% }
     .ikinciIcerik{  width: 100%}
     .icerikSayifasi{width: 100% }
-    .kutu{ width: 91%; top:5px}
+    .kutu{
+        width: 80%; top:70px;
+        left:20px;
+        height: 400px;
+        overflow: visible;
+    }
 
     .button {width: 70px; height: 30px; font-size: 12px}
     .normalMi{width: 20px; height: 30px; font-size: 12px}
