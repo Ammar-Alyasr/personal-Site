@@ -4,10 +4,15 @@
     .ikinciIcerik{  width: 100%}
     .icerikSayifasi{width: 100% }
     .kutu{
-        width: 80%; top:70px;
-        left:20px;
-        height: 400px;
+        width: 84%;
+        top: 132px;
+        left: 29px;
+        height: 280px;
         overflow: visible;
+    }
+    .profile-pic{
+        width: 100px;
+        height: 100px;
     }
 
     .button {width: 70px; height: 30px; font-size: 12px}
@@ -19,8 +24,9 @@
         float: none ;
         height: 300px;
         left:0.1px;
-        background-color: red;
     }
+
+
     .fa-pinterest-square{display: none}
     .fa-vk{ display: none}
     .fa-youtube-square{display: none}.fa-soundcloud{display: none} .fa-tumblr-square{display: none}
@@ -32,6 +38,26 @@
 
      a{ font-size: 10px}
 
-     .flex-container{ display: none}
+     .flex-container{
+         width: 84%;
+         height: 100%;
+         display: flex;
+         overflow: hidden;
+         background-color: #eef6ff;
+         flex-direction: column;
+         padding: 10px;
+         position: relative;
+         top: -60px;
+     }
+
+     .flex-container .bolumlerWeb{
+         width: 71%;
+         height: 133px;
+         position: relative;
+         margin-left: 7px;
+         left: 73px;
+         top: -90px;
+         margin-bottom: 37px;
+     }
 
 }

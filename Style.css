@@ -82,6 +82,7 @@ h1{display: block}
 .ucuncuIcerik{
 
 }
+
 /*Start resim ve ozet icin genel bir kutu*/
 .kutu{
     height: 400px;
@@ -151,7 +152,7 @@ h1{display: block}
     border: none;
     color: #0a212b;
     text-align: center;
-    font-size: 15px;
+    font-size: small;
     padding: 5px;
     width: 90px;
     transition: all 0.5s;
@@ -166,7 +167,7 @@ h1{display: block}
 
 }
 
-.normalMi[about="hello"]{ width: 120px}
+.normalMi[about="hello"]{ width: 150px; font-size: small}
 
 .normalMi:hover{
     border-bottom: 8px solid #9bffe2;
@@ -264,7 +265,7 @@ a{
 
     padding: 10px;
     margin-bottom: 20px;
-    color:skyblue
+    color: skyblue;
 }
 
 a:hover{color: #000}
@@ -274,9 +275,10 @@ a:hover{color: #000}
 .flex-container{
     width: 86%;
     height: 170px;
-    margin-left: 13%;
+    margin: auto;
+    margin-top: 80px;
     display: flex;
-    overflow: auto;
+    overflow: hidden;
     background-color: #eef6ff;
     flex-direction: row;
     padding: 10px;
@@ -309,12 +311,7 @@ a:hover{color: #000}
     display: list-item;
     line-height: 1.5em;
 }
-.flex-container ul li:after{
-    background: url(/dash.jpg) no-repeat 100% 50%;
-    width: 6px;
-    height:10px;
-    margin: auto;
-}
+
 /*End Beginner - Inter - Ad - Exp*/
 
 
@@ -343,7 +340,7 @@ a:hover{color: #000}
     font-style: italic;
     text-align: center;
     line-height: 1.5em;
-    margin: 0 -10px;
+    margin: 0 -12px;
     padding: 90px 5px 5px 2px;
 
     font-size: 0.8rem;
@@ -361,24 +358,27 @@ a:hover{color: #000}
 
 
 .flex-container .bolumlerWeb {
-    width: 210px;
+    width: 100%;
     height: 133px;
-    background-color: blue;
+
     position: relative;
-    margin-left: 10px;
+    margin-left: 0px;
+    left: -118px;
+    margin-bottom: 37px;
 }
+
+
 /*Start seviye belirleyici cizgi*/
 .cizgi{
     height: 98px;
     width: 8px;
-
+    position: absolute;
     cursor: pointer;
     border: 0;
+    top: 29px;
     text-align: center;
-
     box-sizing: border-box;
     display: block;
-
     font-style: italic;
     font-size: 11px;
     background: url(graph_sprite.png) -25px 0px no-repeat;
@@ -396,6 +396,10 @@ a:hover{color: #000}
 .js .cizgi{
     left: 57px;
     background: url(graph_sprite.png) -75px 0px no-repeat;
+}
+.js .noktalar{
+    left: 61px;
+    position: absolute;
 }
 /*End Javascript info.*/
 
@@ -420,16 +424,16 @@ a:hover{color: #000}
 
 /*Start ASP.NET info.*/
 .asp label{
-    margin: 19px -20px;
+    margin: 19px -20px 19px -39px;
 }
 .asp .cizgi{
     left: 137px;
     background: url(graph_sprite.png) -25px 0px no-repeat;
 }
 .asp .noktalar{
-
-
-
+    left: 141px;
+    top: 121px;
+    position: absolute;
 }
 /*End ASP.NET info.*/
 
@@ -437,7 +441,7 @@ a:hover{color: #000}
 
 /*Start Programming Cizgisi*/
 .programmingkismi{
-    width: 155px;
+    width: 190px;
     height: 18px;
     display: block;
     margin-top: 100px;
@@ -446,15 +450,25 @@ a:hover{color: #000}
 }
 .programmingkismi span{
     display: block;
-
-    font-size: smaller;
-    font-weight: 100;
+    font-size: 1.2em;
+    font-weight: 400;
     box-sizing: inherit;
     color:#4a4a4a;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 }
 /*End Programming Cizgisi*/
 
+.programmingkismi[about="webDev"]{
+    background-color: #94eeec;
+}
+
+.programmingkismi[about="proDev"]{
+    background-color: #b3ff9e;
+}
+
+.programmingkismi[about="mangDev"]{
+    background-color: #fbd8ff;
+}
 /*Start C dili Cizgisi*/
 .dilc .cizgi{
     left: 17px;
@@ -468,8 +482,8 @@ a:hover{color: #000}
     background: url(graph_sprite.png) -50px 0px no-repeat
 }
 .sharp .noktalar{
-
-
+    position: absolute;
+    left: 60px;
 }
 .sharp label{margin: 19px -20px}
 /*End C# Cizgisi*/
@@ -479,7 +493,7 @@ a:hover{color: #000}
     left: 97px;
     background: url(graph_sprite.png) -50px 0px no-repeat;
 }
-.python label{margin: 0px -25px 19px}
+.python label{    margin: 0px -25px 19px -52px}
 /*End python dili Cizgisi*/
 
 /*Start Java dili Cizgisi*/
@@ -488,9 +502,10 @@ a:hover{color: #000}
     background: url(graph_sprite.png) -75px 0px no-repeat
 }
 .java .noktalar{
-
+    position: absolute;
+    left: 140px;
 }
-.java label{margin: 19px -20px}
+.java label{margin: 19px -13px 19px -24px}
 /*End Java Cizgisi*/
 
 

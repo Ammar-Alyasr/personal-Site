@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,22 +19,22 @@
     <link rel="stylesheet" href="refrences.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <link rel="stylesheet" href="Style.css">
-    <link rel="stylesheet" href="phoneResponsive.css">
+
+
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
-
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="phoneResponsive.css">
 </head>
 <body>
 
 
 <div id="ust" class="ust">
 
-    <button id="iletisim" class="button"><a data-scroll href="#ikin"><span>Connect</span></a> </button>
-    <button class="normalMi"><span>projeler</span></button>
-    <button class="normalMi"><span>Who am i</span></button>
-    <button class="normalMi" about="hello"><span>ask me anything</span></button>
+    <button id="iletisim" class="button"><a href="#ikin"><span>Connect</span></a> </button>
+    <button class="normalMi"><a href="#ucuncu"> <span>ABOUT</span> </a></button>
+    <button class="normalMi" about="hello"> <a href="#ikin"> <span>PROGRAMMING SKILLS</span></a></button>
 
 
 </div>
@@ -61,16 +61,15 @@
 
 <div id="ikin" class="ikinciIcerik">
         <div class="flex-container">
-        <div class="bolumlerWeb">
             <ul>
                 <li>Expert</li>
                 <li>Advanced</li>
                 <li>Intermediate</li>
                 <li>Beginner</li>
             </ul>
-        </div>
+
         <div class="bolumlerWeb">
-            <div class="programmingkismi">
+            <div class="programmingkismi" about="webDev">
                 <span>Web Developer/Desgin</span>
             </div>
 
@@ -120,7 +119,7 @@
 
         <div class="bolumlerWeb">
 
-            <div class="programmingkismi">
+            <div class="programmingkismi" about="proDev">
                     <span>Programming</span>
             </div>
 
@@ -159,7 +158,7 @@
 
 
         <div class="bolumlerWeb">
-            <div class="programmingkismi">
+            <div class="programmingkismi" about="mangDev">
                     <span>Management</span>
              </div>
 
@@ -200,7 +199,6 @@
     </div>
 
 </div>
-
 
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
