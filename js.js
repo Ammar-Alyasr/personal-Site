@@ -1,14 +1,23 @@
 /**
  * Created by yapı123 on 10.04.2017.
  */
-/*
-global $
 
-$(function () {
-    $("icerikSayifasi").height($(window).height());
+$(document).ready(function(){
+    $("a").on('click', function(event) {
+        if (this.hash !== "") {
+            event.preventDefault();
+            var hash = this.hash;
+
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 1000, function(){
+
+
+                window.location.hash = hash;
+            });
+        }
+    });
 });
- */
-
 
 $(function() {
 
