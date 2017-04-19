@@ -381,7 +381,7 @@ a:hover{color: #000}
     display: block;
     font-style: italic;
     font-size: 11px;
-    background: url(graph_sprite.png) -25px 0px no-repeat;
+    background: url(../images/graph_sprite.png) -25px 0px no-repeat;
 }
 /*End seviye belirleyici cizgi*/
 
@@ -395,7 +395,7 @@ a:hover{color: #000}
 }
 .js .cizgi{
     left: 57px;
-    background: url(graph_sprite.png) -75px 0px no-repeat;
+    background: url(../images/graph_sprite.png) -75px 0px no-repeat;
 }
 .js .noktalar{
     left: 61px;
@@ -406,14 +406,14 @@ a:hover{color: #000}
 /*Start HTML info.*/
 .html .cizgi{
     left: 97px;
-    background: url(graph_sprite.png) 0px 0px no-repeat;
+    background: url(../images/graph_sprite.png) 0px 0px no-repeat;
 }
 /*End HTML info.*/
 
 /*Start sass info.*/
 .sass .cizgi{
     left: 177px;
-    background: url(graph_sprite.png) -75px 0px no-repeat;
+    background: url(../images/graph_sprite.png) -75px 0px no-repeat;
 }
 /*End sass info.*/
 
@@ -428,7 +428,7 @@ a:hover{color: #000}
 }
 .asp .cizgi{
     left: 137px;
-    background: url(graph_sprite.png) -25px 0px no-repeat;
+    background: url(../images/graph_sprite.png) -25px 0px no-repeat;
 }
 .asp .noktalar{
     left: 141px;
@@ -472,14 +472,14 @@ a:hover{color: #000}
 /*Start C dili Cizgisi*/
 .dilc .cizgi{
     left: 17px;
-    background: url(graph_sprite.png) -75px 0px no-repeat;
+    background: url(../images/graph_sprite.png) -75px 0px no-repeat;
 }
 /*End C dili Cizgisi*/
 
 /*Start C# dili Cizgisi*/
 .sharp .cizgi{
     left: 57px;
-    background: url(graph_sprite.png) -50px 0px no-repeat
+    background: url(../images/graph_sprite.png) -50px 0px no-repeat
 }
 .sharp .noktalar{
     position: absolute;
@@ -491,7 +491,7 @@ a:hover{color: #000}
 /*Start python dili Cizgisi*/
 .python .cizgi{
     left: 97px;
-    background: url(graph_sprite.png) -50px 0px no-repeat;
+    background: url(../images/graph_sprite.png) -50px 0px no-repeat;
 }
 .python label{    margin: 0px -25px 19px -52px}
 /*End python dili Cizgisi*/
@@ -499,7 +499,7 @@ a:hover{color: #000}
 /*Start Java dili Cizgisi*/
 .java .cizgi{
     left: 137px;
-    background: url(graph_sprite.png) -75px 0px no-repeat
+    background: url(../images/graph_sprite.png) -75px 0px no-repeat
 }
 .java .noktalar{
     position: absolute;
@@ -513,7 +513,7 @@ a:hover{color: #000}
 /*Start project Cizgisi*/
 .prject .cizgi{
     left: 116px;
-    background: url(graph_sprite.png) -50px 0px no-repeat;
+    background: url(../images/graph_sprite.png) -50px 0px no-repeat;
 }
 .prject label{margin: 0px -32px 19px}
 /*End project  Cizgisi*/
@@ -521,7 +521,7 @@ a:hover{color: #000}
 /*Start Peopel Cizgisi*/
 .human .cizgi{
     left: 30px;
-    background: url(graph_sprite.png) -25px 0px no-repeat
+    background: url(../images/graph_sprite.png) -25px 0px no-repeat
 }
 .human label{margin: 0px -32px}
 /*End Peopel  Cizgisi*/
