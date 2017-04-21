@@ -275,6 +275,7 @@ a:hover{color: #000}
 
 /*Beginner - Inter - Ad - Exp*/
 .flex-container{
+    opacity: 0;
     width: 86%;
     height: 170px;
     margin: auto;
@@ -285,6 +286,7 @@ a:hover{color: #000}
     flex-direction: row;
     padding: 10px;
     position: relative;
+
 }
 .flex-container ul{
     display: block;
