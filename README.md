@@ -1,4 +1,4 @@
-[ammarik](https://ammarik.com/) — My personel WebSite
+[ammarik](http://ammarik.com/) — My personel WebSite
 ==================================================
 
 
