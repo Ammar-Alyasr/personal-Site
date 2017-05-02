@@ -546,8 +546,10 @@ a:hover{color: #000}
     position: fixed;
     width: 50px; height: 50px;
     background-color: bisque;
+    background-color: bisque;
     z-index: 500;
     right: 10px; bottom: 10px;
+    display: none
 }
 
 ::selection{ background: #ffff00}
