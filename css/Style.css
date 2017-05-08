@@ -61,6 +61,20 @@ h1{display: block}
 }
 /*End Sabit ust kisim*/
 
+.gecici{
+    position: fixed;
+    left:10px;
+    top:80px;
+    float: left;
+    z-index: 1000;
+   
+}
+
+.gecici h1{
+    text-align: left;
+    
+}
+
 /*Start uzun olan sayifa*/
 .icerikSayifasi{
     background-color: #76ffdd;
