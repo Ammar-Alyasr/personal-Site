@@ -72,6 +72,9 @@ h1{display: block}
 
 .gecici h1{
     text-align: left;
+    -vendor-animation-duration: 3s;
+    -vendor-animation-delay: 2s;
+    -vendor-animation-iteration-count: infinite;
     
 }
 
